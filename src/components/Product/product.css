@@ -2,14 +2,14 @@
 
 .card {
   background: #fff;
-  width: 22em;
+  width: 17.5em;
   border-radius: 0.6em;
-  margin: 1em;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
-  transition: all ease 200ms;
+  box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.03);
+  transition: all .2s ease;
   height: 430px;
+  margin-bottom: 1.8rem;
 }
 
 .card:hover {
@@ -34,10 +34,18 @@
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
   transition: all ease-in 100ms;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
 }
 
 .card p {
   color: #777;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
 }
 
 .addBtn{

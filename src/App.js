@@ -6,7 +6,7 @@ function App() {
   const [cartItems, setCartItems] = useState([]);
   const [data, setData] = useState(null);
   useEffect(() => {
-    fetch(`https://dummyjson.com/products?limit=10`)
+    fetch(`https://dummyjson.com/products?limit=12`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(
