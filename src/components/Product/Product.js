@@ -12,7 +12,7 @@ export default function ProductCard({ product, onAdd }) {
       <p>{product.description}</p>
     </div>
     <div className='addBtn'>
-      <span onClick={() => onAdd(product)}>Addn Item</span>
+      <span onClick={() => onAdd(product)}>Add Item</span>
     </div>
   </div>
   );

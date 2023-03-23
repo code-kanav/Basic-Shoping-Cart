@@ -2,7 +2,6 @@ import React from 'react';
 import Product from './Product/Product';
 
 export default function Main({ products, onAdd }) {
-  console.log(products)
   return (
     <main className="block col-2">
       <h2>Products</h2>
