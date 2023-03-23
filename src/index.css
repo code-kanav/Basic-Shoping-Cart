@@ -1,0 +1,64 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+    align-items: center;
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+
+.block {
+  background-color: #f9f9f9ad;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
+.text-right {
+  text-align: right;
+}
+
+
+.productBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+img.small {
+  max-height: 8rem;
+}
+
